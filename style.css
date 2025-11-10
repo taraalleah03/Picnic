@@ -1,0 +1,73 @@
+/*font for logo*/
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+/*font for content*/
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&family=Varela+Round&display=swap');
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    font-family: "Varela Round", sans-serif;
+    background-color: #385935;
+    background-image: url("grass.jpg");
+}
+
+nav{
+    font-family: "Patua One", sans-serif;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    text-shadow:
+    1px 1px 2px black,
+    0 0 1em rgba(27, 43, 25, 0.83),
+    0 0 0.2em rgba(27, 43, 25, 0.83);
+}
+
+.header{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    align-items: center;
+}
+
+#logo{
+    color: white;
+}
+
+.menu{
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: black;
+}
+
+.header_container{
+    font-size: 1.3rem;
+    color: white;
+    text-align: center;
+}
+
+header img{
+    width: 1080px;
+    height: 500px;
+}
+
+header p{
+    font-size: 1rem;
+}
