@@ -78,8 +78,8 @@ nav{
 }
 
 header img{
-    width: 1080px;
-    height: 500px;
+    max-width: 1080px;
+    height: auto;
     box-shadow:
     1px 1px 2px black,
     0 0 1em rgba(27, 43, 25, 0.83),
@@ -113,7 +113,7 @@ header p{
 
 .product img{
     width: 100%;
-    height: 400px;
+    height: auto;
 }
 
 .product_content{
@@ -172,4 +172,9 @@ footer{
     1px 1px 2px black,
     0 0 1em rgba(27, 43, 25, 0.83),
     0 0 0.2em rgba(27, 43, 25, 0.83);
+}
+
+map iframe{
+    width: 100%;
+    height: 350px;
 }
